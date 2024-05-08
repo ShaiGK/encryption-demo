@@ -1,0 +1,50 @@
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+  width: calc(100% / 3);
+  margin: 15px;
+  margin-top: 5%;
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+
+.header, .input, .response {
+    align-self: center;
+}
+
+.vl1 {
+    border-left: 6px solid green;
+    height: 100%;
+    position: absolute;
+    left: calc(100% / 3);
+    margin-left: -2.5px;
+    top: 0;
+  }
+
+.vl2 {
+    border-left: 6px solid green;
+    height: 100%;
+    position: absolute;
+    right: calc(100% / 3);
+    margin-right: -2.5px;
+    top: 0;
+  }
